@@ -69,7 +69,7 @@
                 </div>
             </div>
         </nav>
-        <section class="mx-auto lg: w-[1170px] lg:h-[550px]">
+        <section class="mx-auto lg: w-[1170px] lg:h-[550px] ">
             <div class="carousel ">
                 <div id="slide1" class="carousel-item relative w-full flex justify-center mt-14 items-center">
                     <img src="Images/1.png" />
@@ -114,7 +114,7 @@
                     the game of curling in 18th-century Scotland</p>
             </div>
         </section>
-        <section class=" flex lg:flex-row flex-col gap-20">
+        <section class=" flex lg:flex-row flex-col gap-20 sm:flex-col">
             <div class="text-center">
                 <div class="radial-progress text-[#FF4240] mb-4" style="--value:87;" role="progressbar">87%</div>
                 <h3 class="text-xl font-semibold mb-4">Prayer Facility</h3>
@@ -141,15 +141,15 @@
         <section>
             <div class="text-center mt-24">
                 <h3 class="text-4xl font-bold mb-6">Program Sections</h3>
-                <p class="w-[607px] mx-auto text-[#13131899] mb-20">Our organization of more than 461 colleges and
+                <p class="lg:w-[607px] mx-auto text-[#13131899] mb-20">Our organization of more than 461 colleges and
                     university-affiliated
                     teams
                     representing 48 states and
                     2 Canadian provinces provides a structure, regulates operations, and promotes the sport of Hockey
                     nationwide.</p>
             </div>
-            <div class="flex gap-6 justify-center">
-                <div class="card w-[573px]  bg-back-primary image-full">
+            <div class="flex gap-6 justify-center sm:flex-row flex-col">
+                <div class="card lg:w-[573px]  bg-back-primary image-full">
                     <figure><img src="Images/2.png" alt="Shoes" /></figure>
                     <div class="card-body pt-24">
                         <h2 class="card-title text-3xl font-extrabold">Junior Program</h2>
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card w-[573px] bg-base-100 shadow-xl image-full">
+                <div class="card lg:w-[573px] bg-base-100 shadow-xl image-full">
                     <figure><img src="Images/3.png  " alt="Shoes" /></figure>
                     <div class="card-body pt-24">
                         <h2 class="card-title text-3xl font-extrabold">Teenager Program</h2>
@@ -176,12 +176,13 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-6 flex justify-center lg:w-[1170px] mx-auto">
+            <div class="mt-6 flex justify-center lg:w-[1170px] mx-auto sm:flex-row flex-col sm:w-full">
                 <div class="card  bg-[#13131880] shadow-xl image-full">
                     <figure><img src="Images/4.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title text-3xl font-extrabold pt-52">Professional Program</h2>
-                        <p class="pr-96 pt-6">Germany trumped France in the final of the FIH Men's Junior Hockey World
+                        <h2 class="card-title lg:text-3xl font-extrabold lg:pt-52">Professional Program</h2>
+                        <p class="lg:pr-96 pt-6">Germany trumped France in the final of the FIH Men's Junior Hockey
+                            World
                             Cup
                             2023 in Kuala
                             Lumpur, Malaysia, for their seventh title while Spain and the Indian hockey team finished
@@ -367,8 +368,8 @@
                 stubborn coughs and congestive discomfort, restoring your comfort
                 and helping you breathe easy in no time. Buy on Amazon.</p>
         </section>
-        <section class="lg:w-[1170px] mx-auto grid lg:grid-cols-2 mt-24">
-            <div class="gap-4 grid grid-rows-1 items-center mx-auto ">
+        <section class="lg:w-[1170px] mx-auto grid lg:grid-cols-2 mt-24 items-center ">
+            <div class="gap-4 grid grid-rows-1 items-center mx-auto row-span-3">
                 <div class="rounded-xl bg-[#BCED6D1A] lg:w-[374px]  lg:h-48  p-12">
                     <i class="fa-solid fa-phone"></i>
                     <p>Phone Number :
@@ -391,45 +392,92 @@
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="row-span-2">
                 <form>
-                    <div class="grid lg:grid-cols-2 grid-rows-2  gap-6">
+                    <div class="flex flex-col sm:flex-row gap-6">
                         <div>
                             <label class="text-lg font-bold" for="fname">Your name</label><br>
                             <input type="text" placeholder="Enter your full name"
-                                class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                                class="input input-bordered w-[324px] max-w-xs bg-[#13131808]" />
                         </div>
                         <div>
                             <label class="text-lg font-bold" for="">Your Email</label><br>
                             <input type="text" placeholder="Enter your Email"
-                                class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                                class="input input-bordered w-[324px] max-w-xs bg-[#13131808]" />
                         </div>
                     </div>
-                    <div class="grid lg:grid-cols-2 grid-rows-2 gap-6">
+                    <div class="flex flex-col sm:flex-row gap-6">
                         <div>
                             <label class="text-lg font-bold" for="fname">Subject</label><br>
                             <input type="text" placeholder="Enter your subject"
-                                class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                                class="input input-bordered w-[324px] max-w-xs bg-[#13131808]" />
                         </div>
                         <div>
                             <label class="text-lg font-bold" for="">Phone Number</label><br>
                             <input type="text" placeholder="Enter your Phone Number"
-                                class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                                class="input input-bordered w-[324px] max-w-xs bg-[#13131808]" />
                         </div>
                     </div>
                     <div>
                         <label class=" text-lg font-bold" for="">Message</label><br>
                         <textarea class="textarea textarea-bordered lg:w-[672px] lg:h-[330px] bg-[#13131808]"
                             placeholder="Write your message"></textarea>
-                        <button class="bg-[#FF4240] lg:w-[672px] rounded-lg mt-4 text-white font-bold">Send
+                        <button class="bg-[#FF4240] lg:w-[672px] rounded-lg mt-4 text-white font-bold sm:w-[335px]">Send
                             Message</button>
                     </div>
                 </form>
             </div>
         </section>
+        <section class="lg:w-[1170px] mx-auto mt-12">
+            <footer class="footer footer-center p-4 bg-base-300 text-base-content rounded-xl">
+                <aside>
+                    <h3 class="text-lg font-bold">Social Media</h3>
+                    <div class="gap-4 flex">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </aside>
+            </footer>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer p-12 bg-black text-base-content mt-24">
+        <aside class="pl-48 ">
+            <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                clip-rule="evenodd" class="fill-current">
+                <h3 class="text-xl font-bold text-white">Get In Touch</h3>
+            </svg>
+            <p class="lg:w-[346px] text-white">This powerful remedy
+                swiftly tackles
+                stubborn coughs and congestive discomfort.</p>
+            <div class="mt-6">
+                <i class="fa-solid fa-envelope text-white"> hockeys@support.com</i>
+                <br>
+                <br>
+                <i class="fa-solid fa-phone text-white"> (+62) 123-321-543</i>
+            </div>
+        </aside>
+        <nav class="text-white">
+            <header class="footer-title">Services</header>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav class="text-white">
+            <header class="footer-title">Company</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav class="text-white">
+            <header class="footer-title">Legal</header>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
     </footer>
 </body>
 
